@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Tahoma;
+    background-color:rgb(221, 226, 231);
+}
+
+h1{
+    font-size: 3rem;
+    margin: auto;
+    color: darkslategrey
+}
+
+hr{
+    color: black;
+    width: 50%;
+    border-width: 2px;
+}
+
+p{
+    font-size: 4rem;
+    margin: auto;
+}
+
+.container{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.btn{
+    height: 50px;
+    padding: 15px;
+}
